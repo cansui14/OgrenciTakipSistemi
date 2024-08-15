@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E8CD773-F8D8-4117-BB62-ECDA2547A8C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ÖgrenciTakipSistemi</RootNamespace>
+    <AssemblyName>ÖgrenciTakipSistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ders Programı Duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ders Programı Duzenle.Designer.cs">
+      <DependentUpon>Ders Programı Duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici_kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici_kayit.Designer.cs">
+      <DependentUpon>Kullanici_kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Okul Takip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Okul Takip.Designer.cs">
+      <DependentUpon>Okul Takip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="point.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sınav Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sınav Ekle.Designer.cs">
+      <DependentUpon>Sınav Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödev Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ödev Ekle.Designer.cs">
+      <DependentUpon>Ödev Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÖgrenciTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖgrenciTakip.Designer.cs">
+      <DependentUpon>ÖgrenciTakip.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ders Programı Duzenle.resx">
+      <DependentUpon>Ders Programı Duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici_kayit.resx">
+      <DependentUpon>Kullanici_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Okul Takip.resx">
+      <DependentUpon>Okul Takip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sınav Ekle.resx">
+      <DependentUpon>Sınav Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ödev Ekle.resx">
+      <DependentUpon>Ödev Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖgrenciTakip.resx">
+      <DependentUpon>ÖgrenciTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_30084607-stock-photo-back-to-school-concept-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
