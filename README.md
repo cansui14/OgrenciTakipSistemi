@@ -4,7 +4,7 @@ Bu masaüstü uygulaması, öğrenci kayıtlarını yönetmek ve takip etmek iç
 
 Proje Özeti:
 
-Öğretmen Arayüzü:
+Öğretmen Arayüzü
 
 Öğrenci Yönetimi:
 Öğretmenler, yeni öğrenci ekleyebilir, mevcut öğrenci kayıtlarını güncelleyebilir ve öğrencileri sistemden silebilir.
@@ -14,7 +14,7 @@ Not Yönetimi:
 Ders Programı Düzenleme: 
 Öğretmenler, ders programını oluşturabilir ve düzenleyebilir.
 
-Öğrenci Arayüzü:
+Öğrenci Arayüzü
 
 Bilgi Görüntüleme: Öğrenciler, sınav ve ödev tarihlerini, ders programlarını ve diğer ilgili bilgileri görüntüleyebilir.
 
